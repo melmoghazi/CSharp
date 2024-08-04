@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDelegate", "DemoDelegat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLambdaExpresion", "DemoLambdaExpresion\DemoLambdaExpresion.csproj", "{07033F1D-B720-46A2-9DC4-6136B0D0CF72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExtensionMethods", "ExtensionMethods\DemoExtensionMethods.csproj", "{E75DD3F3-2E0E-416F-B219-522388EC0C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoExtensionMethods", "ExtensionMethods\DemoExtensionMethods.csproj", "{E75DD3F3-2E0E-416F-B219-522388EC0C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLinq", "DemoLinq\DemoLinq.csproj", "{EE684007-E321-4E62-8109-3C5D24D2FC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLinq", "DemoLinq\DemoLinq.csproj", "{EE684007-E321-4E62-8109-3C5D24D2FC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoNullableTypes", "NullableTypes\DemoNullableTypes.csproj", "{999C05D7-7730-414B-A022-052F3315AE4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoNullableTypes", "NullableTypes\DemoNullableTypes.csproj", "{999C05D7-7730-414B-A022-052F3315AE4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDynamics", "DemoDynamics\DemoDynamics.csproj", "{F2C98D5B-ECD9-4792-8118-115450E4100A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDynamics", "DemoDynamics\DemoDynamics.csproj", "{F2C98D5B-ECD9-4792-8118-115450E4100A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExceptions", "DemoExceptions\DemoExceptions.csproj", "{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F2C98D5B-ECD9-4792-8118-115450E4100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C98D5B-ECD9-4792-8118-115450E4100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C98D5B-ECD9-4792-8118-115450E4100A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
