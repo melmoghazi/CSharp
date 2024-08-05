@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDynamics", "DemoDynamic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExceptions", "DemoExceptions\DemoExceptions.csproj", "{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAsynchronous", "DemoAsynchronous\DemoAsynchronous.csproj", "{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
