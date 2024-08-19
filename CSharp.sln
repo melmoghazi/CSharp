@@ -27,7 +27,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAsynchronous", "DemoAsy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoInMemoryCaching", "DemoInMemoryCaching\DemoInMemoryCaching.csproj", "{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass_EmployeeExample", "AbstractClass_EmployeeExample\AbstractClass_EmployeeExample.csproj", "{BF90FF31-3C8C-48CD-B0CD-E20C63110C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass_EmployeeExample", "AbstractClass_EmployeeExample\AbstractClass_EmployeeExample.csproj", "{BF90FF31-3C8C-48CD-B0CD-E20C63110C82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial", "Tutorial", "{A9827EE3-4281-4820-9A8C-0B7F492B443B}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
