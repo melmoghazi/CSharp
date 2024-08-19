@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoNullableTypes", "Nullab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDynamics", "DemoDynamics\DemoDynamics.csproj", "{F2C98D5B-ECD9-4792-8118-115450E4100A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExceptions", "DemoExceptions\DemoExceptions.csproj", "{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoExceptions", "DemoExceptions\DemoExceptions.csproj", "{AD0D2C9F-4ABC-4453-AFA6-6D05852C4991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAsynchronous", "DemoAsynchronous\DemoAsynchronous.csproj", "{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAsynchronous", "DemoAsynchronous\DemoAsynchronous.csproj", "{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInMemoryCaching", "DemoInMemoryCaching\DemoInMemoryCaching.csproj", "{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B933D9DC-5DB2-4685-9AB5-D7DB4FD8473A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624A0D5D-AC0E-4D9C-91CB-887DEE32489C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
