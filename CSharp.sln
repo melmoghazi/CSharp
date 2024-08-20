@@ -34,6 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial", "Tutorial", "{A9
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.SingleResponsiblity", "Solid.SingleResponsiblity\Solid.SingleResponsiblity.csproj", "{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.OpenClose", "Solid.OpenClose\Solid.OpenClose.csproj", "{A068F9C5-53D5-4E9B-9219-174BE0698445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{BF90FF31-3C8C-48CD-B0CD-E20C63110C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF90FF31-3C8C-48CD-B0CD-E20C63110C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF90FF31-3C8C-48CD-B0CD-E20C63110C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
