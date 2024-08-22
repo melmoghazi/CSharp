@@ -34,9 +34,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial", "Tutorial", "{A9
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.SingleResponsiblity", "Solid.SingleResponsiblity\Solid.SingleResponsiblity.csproj", "{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.SingleResponsiblity", "Solid.SingleResponsiblity\Solid.SingleResponsiblity.csproj", "{C7EF532A-2834-4F9B-8A0D-0CD1BD706167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.OpenClose", "Solid.OpenClose\Solid.OpenClose.csproj", "{A068F9C5-53D5-4E9B-9219-174BE0698445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.OpenClose", "Solid.OpenClose\Solid.OpenClose.csproj", "{A068F9C5-53D5-4E9B-9219-174BE0698445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.LiskovSubstitution", "Solid.LiskovSubstitution\Solid.LiskovSubstitution.csproj", "{04B23E4B-1DFF-4AAD-9941-32F73ACCFB6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +106,10 @@ Global
 		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A068F9C5-53D5-4E9B-9219-174BE0698445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B23E4B-1DFF-4AAD-9941-32F73ACCFB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B23E4B-1DFF-4AAD-9941-32F73ACCFB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B23E4B-1DFF-4AAD-9941-32F73ACCFB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B23E4B-1DFF-4AAD-9941-32F73ACCFB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
