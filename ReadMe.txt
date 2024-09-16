@@ -1,4 +1,4 @@
-Class 
+﻿Class 
 is a blueprint of an object that contains variables for storing data and functions to perform operations on the data.
 A class will not occupy any memory space; hence, it is only a logical representation of data.
 
@@ -44,23 +44,23 @@ There are some important points about Abstract Base Class.
 3-The class having the Abstract keyword with all its methods is a pure Abstract Base Class.
 4-The method of the abstract class that has no implementation is known as "operation". It can be defined as an abstract void method ();
 5-An abstract class holds the methods, but the actual implementation is made in the derived class.
-�-------------------------------------------
+—-------------------------------------------
 Why and when should we use an abstract class?
 So we would create an abstract class when want to move the common functionality of 2 or more classes 
 into a base class and when we don't want that base class to be instantiated.
-�-------------------------------------------
+—-------------------------------------------
 Can an abstract class have a constructor? If so, what is the use?
 Yes, a class constructor used to initialize the class fields in the same line.
 If you want to initialize certain fields of the abstract class before the instantiation of the child-class takes place.
 Execute code that is relevant for every child class. This prevents the duplicate code.
-�-------------------------------------------
+—-------------------------------------------
 You cannot create an instance of an abstract class,so what is the use of a constructor in an abstract class?
 Because we can create an instance of a class that is derived from the abstract class. So when an instance of derived class is created the parent abstract class constructor is automatically called.
-So it is a good practice to use the protected access modifier with the abstract class constructor. Public doesn�t make sense.
-�-------------------------------------------
+So it is a good practice to use the protected access modifier with the abstract class constructor. Public doesn’t make sense.
+—-------------------------------------------
 Can you call an abstract method from an abstract class constructor?
 Yes,if you want the abstract method to be invoked automatically whenever an instance of the class that is derived from the abstract class is created, then we would call it in the constructor of the base class.
-�-------------------------------------------
+—-------------------------------------------
 Override vs new when implementing a virtual method?
  - override will override the implementation 
  - new will hide the virtual method in the base class.
@@ -69,7 +69,7 @@ Base b = new Derived();
 Derived d = new Derived();
 b.Print(); // Calls Base.Print 
 d.Print(); // Calls Derived.Print
-�-------------------------------------------
+—-------------------------------------------
 What is an interface?
 - Interface created using interface keyword
 - Interface can contains but with declaration only not implementation:
@@ -78,13 +78,13 @@ What is an interface?
 	- Delegates
 	- Events 
 - Interface can not contain fields
-- Interface members are public by default, and they don�t allow access modifiers.
+- Interface members are public by default, and they don’t allow access modifiers.
 - If a class or a struct inherits from an interface, it must provide an implementation for all interface members. Otherwise we get a compile time error.
 - A class or a struct can inherit from more than one interface at the same time, but whereas, a class can not inherit from more than one class at the same time.
 - Interface can inherit from other interfaces.A class that inherits this interface must provide implementation for all interface members in the entire interface inheritance chain.
 - We can not create an instance of an interface, but an interface reference variable can point to a derived class object.
 - Interface names naming conventions are prefixed with capital I.
-�-------------------------------------------
+—-------------------------------------------
 Interface VS Abstract class?
 Abstract class
 	- Can have implementation for some of its members(methods)
@@ -96,7 +96,7 @@ Interface
 	- Can not have fields
 	- Members can not have access modifier
 	- Can inherit from another interfaces only
-�-------------------------------------------
+—-------------------------------------------
 What are the advantages of using interfaces?
 Interfaces allow us to use loosely coupled systems.
 Interfaces are very useful for dependency injection.
@@ -114,6 +114,44 @@ Most of the time you will be using the existing extension methods.
 Example ist to get number of words from a given string.
 Another example are the linq extension methods.
 -----------------------------------------------------------------------------
+Solid Principals
+
+1- Single Responsibility Principal (SRP)
+The class is responsible of one thing so it has a lot of properties and methods but they all related to one thing.
+The class should be height cohesive. متماسكة اى تسخدم لغرض واحد فقط
+The class should have only one reason to change.
+Example: Job Vacancy Manager class. The class has CRUD operations of job vacancy but not has items 
+related to applicant and not sending emails.
+
+2- Open Close Principal (OCP)
+Open for extension Close for modification.
+The software entities(modules, classes, functions etc.) should be open for extension but closed for modification.
+Example: Salary Calculator Class. We extended SalaryCalculator class by the other classes 
+SalariedEmployeeSalaryCalculator, HourlyEmployeeSalaryCalculator, InternEmployeeSalaryCalculator.
+
+3- Liskov Substitution Principal (LSP) الاستبدال
+استبدل ال Type ب ال Subtype بدون تغير substitute type with subtype without change.
+Objects in a program should be replaceable with instances of their
+subtypes without altering the correctness of that program.
+Example: DismissedEmployee CEO class.
+
+4- Interface Segregation Principal (ISP) الفصل
+Clients should not be forced to depend upon interfaces that they do not use.
+Example: In the business you can update and delete the employee but you cannot 
+update or delete the applicant. so you cannot make a repository of the 
+Applicant class like the employee because you will violate the ISP.
+The solution is to segregate the IRepository interface.
+
+5- Dependency Inversion Principal (DIP)
+- High-Level Modules/Classes should not depend on low-level Modules/Classes but both should depend on abstractions.
+- Abstractions should not depend on details but details should depend on abstraction.
+
+There a difference between Dependency Inversion and Dependency Injection:
+* Dependency Inversion is the principal.
+* Dependency Injection in the way to apply the the DIP an it can be implemented by:
+1-Contstructor injection
+2-Method injection
+3-Properity injection.
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
