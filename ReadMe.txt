@@ -69,6 +69,8 @@ Base b = new Derived();
 Derived d = new Derived();
 b.Print(); // Calls Base.Print 
 d.Print(); // Calls Derived.Print
+using new when re-implement virtual method making
+something new related to derived class and it does not override the base method.
 —-------------------------------------------
 What is an interface?
 - Interface created using interface keyword

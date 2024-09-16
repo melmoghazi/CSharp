@@ -1,4 +1,5 @@
-﻿using OOP.Class.Polymorphism;
+﻿using OOP.Class.OverrideAndNew;
+using OOP.Class.Polymorphism;
 
 namespace OOP.Class
 {
@@ -6,6 +7,15 @@ namespace OOP.Class
     {
         static void Main(string[] args)
         {
+            #region Override and New
+            B b = new D();
+            D d = new D();
+            b.Print(); // Calls Base.Print 
+            d.Print(); // Calls Derived.Print
+            //using new when re-implement virtual method making
+            //something new related to derived class and it does not override the base method.
+            Console.WriteLine("-------------------------------------");
+            #endregion
             Console.WriteLine("Customer");
             ////Constructor Overloading
             //Customer customer = new Customer(1,"Mohammed");
