@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.InterfaceSegregation"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.DependencyInversion", "Solid.DependencyInversion\Solid.DependencyInversion.csproj", "{80434235-B846-4D8B-91B1-EEB189264E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEFQuries", "DemoEFQuries\DemoEFQuries.csproj", "{096D0A6E-132C-4CC7-8528-69C7EBAF7555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoEFQuries", "DemoEFQuries\DemoEFQuries.csproj", "{096D0A6E-132C-4CC7-8528-69C7EBAF7555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{65F3BAD3-671B-473B-92E4-5F0810EE1C3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{096D0A6E-132C-4CC7-8528-69C7EBAF7555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096D0A6E-132C-4CC7-8528-69C7EBAF7555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096D0A6E-132C-4CC7-8528-69C7EBAF7555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F3BAD3-671B-473B-92E4-5F0810EE1C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F3BAD3-671B-473B-92E4-5F0810EE1C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F3BAD3-671B-473B-92E4-5F0810EE1C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F3BAD3-671B-473B-92E4-5F0810EE1C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
