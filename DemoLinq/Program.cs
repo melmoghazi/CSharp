@@ -4,6 +4,15 @@
     {
         static void Main(string[] args)
         {
+            dynamic b = 1;
+            b = "happy";
+            b = 22;
+            Console.WriteLine(b);
+
+            Console.ReadKey();
+        }
+        static void Main2(string[] args)
+        {
             Console.WriteLine("Start");
             // get books witch are less than 10
             var books = BookRepository.GetBooks();
@@ -63,9 +72,9 @@
             }
 
             //Linq extension methods examples
-            var bookFirst= books.First();
+            var bookFirst = books.First();
             Console.WriteLine($"bookFirst: {bookFirst}");
-            var firstOrDefault = books.FirstOrDefault(b=>b.Title=="SQL");
+            var firstOrDefault = books.FirstOrDefault(b => b.Title == "SQL");
             Console.WriteLine($"firstOrDefault: {firstOrDefault.Title}");
             var singleOrDefault = books.SingleOrDefault(b => b.Title == "SQL");
             Console.WriteLine($"SingleOrDefault: {singleOrDefault.Title}");
@@ -92,7 +101,7 @@
             var countOFBooks = books.Count;
             Console.WriteLine($"countOFBooks = {countOFBooks}");
             //count of the books
-            var averageBooksPrice = books.Average(b=>b.Price);
+            var averageBooksPrice = books.Average(b => b.Price);
             Console.WriteLine($"averageBooksPrice = {averageBooksPrice}");
 
             Console.WriteLine("End");
