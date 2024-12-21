@@ -52,7 +52,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.SolidPrinciplesExampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced.MultithreadingBasics", "CSharpAdvanced.MultithreadingBasics\CSharpAdvanced.MultithreadingBasics.csproj", "{32EE5D75-5C5A-40C8-94FE-E6D749C39F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced.Delegates", "CSharpAdvanced.Delegates\CSharpAdvanced.Delegates.csproj", "{00235C4D-2E0D-4B0B-A1A6-3AC6D34880F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAdvanced.Delegates", "CSharpAdvanced.Delegates\CSharpAdvanced.Delegates.csproj", "{00235C4D-2E0D-4B0B-A1A6-3AC6D34880F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAndIEnumerable", "ListAndIEnumerable\ListAndIEnumerable.csproj", "{0AAB5D17-2872-4EBC-8BA2-09C90B532A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +154,10 @@ Global
 		{00235C4D-2E0D-4B0B-A1A6-3AC6D34880F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00235C4D-2E0D-4B0B-A1A6-3AC6D34880F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00235C4D-2E0D-4B0B-A1A6-3AC6D34880F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAB5D17-2872-4EBC-8BA2-09C90B532A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAB5D17-2872-4EBC-8BA2-09C90B532A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAB5D17-2872-4EBC-8BA2-09C90B532A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAB5D17-2872-4EBC-8BA2-09C90B532A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
