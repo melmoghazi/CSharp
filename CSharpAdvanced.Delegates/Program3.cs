@@ -7,7 +7,7 @@ namespace CSharpAdvanced.Delegates
     internal class Program3
     {
         delegate bool ShouldCalculate(Employee employee);
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
             List<Employee> employees = new List<Employee>();
             for (int i = 0; i <= 100; i++)

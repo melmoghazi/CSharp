@@ -40,18 +40,5 @@
             }
         }
     }
-    public class Employee
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
-    internal class EmployeeService
-    {
-        public IEnumerable<Employee> iEmployees { get; set; }
-        public EmployeeService()
-        {
-            iEmployees.add
-        }
-    }
+    
 }
