@@ -23,7 +23,7 @@
             -Suitable for scenarios where you need to frequently add, remove, or access elements by index.
             -Not deferred; all elements must be fully loaded in memory.
          */
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             IEnumerable<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
             foreach (var number in numbers)
